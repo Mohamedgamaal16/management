@@ -258,8 +258,8 @@ class PlannerDetailScreen extends StatelessWidget {
               context,
               MaterialPageRoute(
 
-                builder: (context) => PaymentMethodPage(),
-                // builder: (context) => BookNowScreen(planner: planner),
+                // builder: (context) => PaymentMethodPage(),
+                builder: (context) => BookNowScreen(planner: planner),
               ),
             );
           },

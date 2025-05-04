@@ -88,6 +88,7 @@ class _PaymentMethodPageState extends State<PaymentMethodPage> {
                 onPressed: () {
                   // Process payment with selected method
                   _processPayment(_paymentMethods[_selectedPaymentMethod]);
+                  Navigator.pop(context);
                 },
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Theme.of(context).primaryColor,
