@@ -46,23 +46,22 @@ dependencies:
 
 flutter_native_splash:
   ios: true
-  # background_color: "#ffffff"
+  color: "#FFFFFF"
   android: true
   fullscreen: true
+  image: "assets/images/logo.jpg"
   android_12:
     image: "assets/images/logo.jpg"
     # background_color: "#ffffff"
-    icon_background_color: "#ffffff"
+    icon_background_color: "#FFFFFF"
+
 
 
 flutter_launcher_icons:
-  image_path: "assets/images/logo.jpg"
-  android: true
+  android: "launcher_icon"
   ios: true
+  image_path: "assets/images/logo.jpg"
   remove_alpha_ios: true
-
-
-
 
 dev_dependencies:
   flutter_test:
