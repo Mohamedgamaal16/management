@@ -5,8 +5,6 @@ import 'firebase_options.dart'; // Ensure this file is in your project
 import 'package:management/screens/splash.dart';
 
 void main() async {
-    WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
-  FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
